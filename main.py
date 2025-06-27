@@ -10,7 +10,7 @@ from llama_index.core import VectorStoreIndex, StorageContext
 from llama_index.vector_stores.qdrant import QdrantVectorStore
 from llama_index.embeddings.cohere import CohereEmbedding
 from llama_index.llms.cohere import Cohere
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 
 # --- 1. Pydantic Model for Request Body ---
 class QueryRequest(BaseModel):
@@ -111,4 +111,3 @@ async def handle_query(request: QueryRequest):
     formatted_text = raw_text.replace('\n', '<br>')
     
     return {"answer": formatted_text}
-
