@@ -41,7 +41,7 @@ def run_rag_test():
 
     # (B) Load documents from the './data' folder
     try:
-        file_path="C://Users//RiteshRaut//fast_api//rag_1//special_vishal.pdf"
+        file_path="C://Users//RiteshRaut//fast_api//rag_1//final_kb.pdf"
         documents=SimpleDirectoryReader(
         input_files=[file_path],
         filename_as_id=True).load_data()
