@@ -170,7 +170,7 @@ curl -X POST "[http://127.0.0.1:8000/query](http://127.0.0.1:8000/query)" \
 
 ```json
 {
-  "answer": "The main benefit of using a RAG model is its ability to provide accurate, context-aware answers by retrieving information from an external knowledge base, which significantly reduces the chances of the model hallucinating or providing incorrect information."
+  "answer": "To take care of your skin use proper skin care product based on the skin type."
 }
 ```
 
